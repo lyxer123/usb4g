@@ -1,0 +1,39 @@
+{
+    "serverConfig": {
+        "mqttHost": "47.108.226.28",
+        "mqttPort": 1883,
+        "myIOTServer": "http://pay.bldxny.com:8080/iot/tool/ntp?deviceSendTime=35768"
+    },
+    "deviceConfig": {
+        "deviceNum": "D16INS297FG8",
+        "userId": "1",
+        "productId": "154",
+        "mqttUserName": "FuseSwitch",
+        "mqttPwd": "PFA1F2179HM5Z78Z",
+        "mqttSecret": "KYMSG182KRNR5G0C",
+        "authCode": "",
+        "wumei_iv": "wumei-smart-open",
+        "latitude": 0,
+        "longitude": 0
+    },
+    "mqttTopics": {
+        "subscribe": {
+            "sInfoTopic": "/154/D16INS297FG8/info/get",
+            "sOtaTopic": "/154/D16INS297FG8/ota/get",
+            "sNtpTopic": "/154/D16INS297FG8/ntp/get",
+            "sPropertyTopic": "/154/D16INS297FG8/property/get",
+            "sFunctionTopic": "/154/D16INS297FG8/function/get",
+            "sPropertyOnline": "/154/D16INS297FG8/property-online/get",
+            "sFunctionOnline": "/154/D16INS297FG8/function-online/get",
+            "sMonitorTopic": "/154/D16INS297FG8/monitor/get"
+        },
+        "publish": {
+            "pInfoTopic": "/154/D16INS297FG8/info/post",
+            "pNtpTopic": "/154/D16INS297FG8/ntp/post",
+            "pPropertyTopic": "/154/D16INS297FG8/property/post",
+            "pFunctionTopic": "/154/D16INS297FG8/function/post",
+            "pMonitorTopic": "/154/D16INS297FG8/monitor/post",
+            "pEventTopic": "/154/D16INS297FG8/event/post"
+        }
+    }
+}

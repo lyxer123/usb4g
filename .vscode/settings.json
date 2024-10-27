@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "usb_phy.h": "c",
+        "usb_helpers.h": "c",
+        "usb_types_stack.h": "c",
+        "mydefine.h": "c"
+    }
+}
