@@ -1,5 +1,15 @@
 
 //参考https://portrait.gitee.com/sea_captain/esp32_-cdc_4-g/blob/master/sdkconfig.old的数据来设置
+// 目前只是为了编译通过，将一些参数提取出来放在本文件中，假设编译通过后，必须按照项目实际情况修改
+
+/*
+按照乐鑫公司工程师指导
+可以将 4g 组件中的所有 .c .h 已源码的方式拉取到 arduino 工程目录下，平铺展开，不要有文件夹，然后就可以调用里面的 API。
+1. https://github.com/espressif/esp-iot-solution/tree/master/components/usb/iot_usbh_modem
+2. https://github.com/espressif/esp-iot-solution/tree/master/components/usb/iot_usbh
+3. https://github.com/espressif/esp-iot-solution/tree/master/components/usb/iot_usbh_cdc
+
+*/
 
 #define CONFIG_MODEM_TARGET_NAME  "AIR724UG-NFM"
 #define CONFIG_MODEM_USB_IN_EP_ADDR 0x81

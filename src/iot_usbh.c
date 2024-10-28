@@ -21,6 +21,7 @@
 #include "esp_private/usb_phy.h"
 #include "iot_usbh.h"
 
+#include "esp_modem.h"
 #include "myDefine.h"
 
 #define ERR_CHECK(a, str, ret) if(!(a)) { \
